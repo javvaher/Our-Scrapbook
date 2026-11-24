@@ -1,0 +1,1156 @@
+@charset "utf-8";
+body {
+    margin: 0px;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #EDE4D3;
+    background-color: #120E0B;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#cover {
+    background-image: url(images/bg-cover.jpg);
+}
+#jawaher {
+    background-image: url(images/bg-jawaher.jpg);
+}
+#salama {
+    background-image: url(images/bg-salama.jpg);
+}
+#fatima {
+    background-image: url(images/bg-fatima.jpg);
+}
+#hala {
+    background-image: url(images/bg-hala.jpg);
+}
+#mathayel {
+    background-image: url(images/bg-mathayel.jpg);
+}
+a {
+    color: #EDE4D3;
+}
+img {
+    border: 0px;
+}
+.clear {
+    clear: both;
+}
+#container {
+    width: 100%;
+    min-width: 1180px;
+}
+#navigation, #banner, #mainContent, #footer {
+    width: 1104px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    padding: 0px 48px;
+    background-color: #17120E;
+    border-bottom: 1px solid #393430;
+}
+#brand {
+    margin: 0px;
+    padding: 12px 0px 6px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    line-height: 1;
+}
+#brand a {
+    text-decoration: none;
+}
+#navigation {
+    padding: 12px 0px 14px;
+    border-top: 1px solid #393430;
+}
+#navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#navigation li {
+    float: left;
+}
+.menu {
+    float: left;
+}
+.menu li {
+    margin-right: 26px;
+}
+.menu a {
+    display: block;
+    padding: 4px 2px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 3px solid #17120E;
+}
+.menu a:hover, .menu a.current {
+    border-bottom: 3px solid #C8963E;
+}
+.chips {
+    float: right;
+}
+.chips li {
+    margin-left: 8px;
+}
+.chips a {
+    display: block;
+    padding: 4px 12px 4px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #49443D;
+    border-radius: 40px;
+}
+.chips a.current {
+    border: 1px solid #E8CF9E;
+}
+.chips a:hover {
+    color: #FFFFFF;
+}
+.chips span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+.chip-jawaher span, .chips a.chip-jawaher:hover {
+    background-color: #5E2C48;
+}
+.chip-salama span, .chips a.chip-salama:hover {
+    background-color: #7E4520;
+}
+.chip-fatima span, .chips a.chip-fatima:hover {
+    background-color: #1F2023;
+}
+.chip-hala span, .chips a.chip-hala:hover {
+    background-color: #5C232A;
+}
+.chip-mathayel span, .chips a.chip-mathayel:hover {
+    background-color: #2E4568;
+}
+.chip-fatima span {
+    border: 1px solid #A39A8C;
+    width: 9px;
+    height: 9px;
+}
+.kicker {
+    display: block;
+    margin-bottom: 14px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E8CF9E;
+}
+h2 {
+    margin: 0px 0px 18px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 1.05;
+}
+h2 em {
+    color: #E8CF9E;
+}
+#jawaher .kicker, #jawaher h2 em {
+    color: #DCC6D6;
+}
+#salama .kicker, #salama h2 em {
+    color: #F3D6B2;
+}
+#fatima .kicker, #fatima h2 em {
+    color: #E8E9EB;
+}
+#hala .kicker, #hala h2 em {
+    color: #EBD1D4;
+}
+#mathayel .kicker, #mathayel h2 em {
+    color: #D0DCEC;
+}
+.hand {
+    font-family: "Caveat", cursive;
+    font-size: 26px;
+    line-height: 1.15;
+}
+.opening-text {
+    width: 470px;
+    margin: 22px 0px 0px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #D8CDBB;
+}
+.section {
+    padding: 100px 0px;
+    border-top: 1px solid #393430;
+}
+.twoColumn {
+    float: left;
+}
+.wide {
+    width: 618px;
+    margin-right: 66px;
+}
+.narrow {
+    width: 420px;
+}
+.wide.right {
+    margin: 0px 0px 0px 66px;
+}
+#cover #banner {
+    position: relative;
+    height: 660px;
+}
+#heroLeft {
+    position: absolute;
+    left: -14px;
+    top: 47px;
+}
+#heroRight {
+    position: absolute;
+    left: 791px;
+    top: 64px;
+}
+#cd {
+    position: absolute;
+    left: 873px;
+    top: 162px;
+}
+#cd:hover {
+    top: 148px;
+}
+#heroCenter {
+    position: absolute;
+    left: 298px;
+    top: 117px;
+    width: 508px;
+    text-align: center;
+}
+#heroCenter p {
+    margin: 0px;
+}
+#heroCenter .hand {
+    color: #E8CF9E;
+}
+#heroCenter h1 {
+    margin: 22px 0px 0px;
+    line-height: 0;
+}
+#heroCenter .statement {
+    margin-top: 24px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+#heroCenter .meta {
+    margin-top: 16px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #BCAD95;
+}
+.scroll-cue {
+    display: inline-block;
+    margin-top: 40px;
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    text-decoration: none;
+}
+#banner {
+    position: relative;
+    height: 940px;
+}
+#cover #banner {
+    height: 660px;
+}
+.page-no {
+    position: absolute;
+    right: 0px;
+    top: 110px;
+    margin: 0px;
+    font-family: "Courier Prime", monospace;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #BCAD95;
+}
+#intro {
+    position: absolute;
+    left: 0px;
+    top: 184px;
+    width: 508px;
+}
+#intro img {
+    display: block;
+    margin-left: -13px;
+}
+#intro .hello {
+    margin: 3px 0px 0px;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+}
+#intro h1 {
+    margin: 16px 0px 0px;
+}
+#intro h1 img {
+    margin-left: -9px;
+}
+.major {
+    margin: -6px 0px 0px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #BCAD95;
+}
+.tagline {
+    width: 340px;
+    height: 83px;
+    margin: 41px 0px 0px 6px;
+    padding: 11px 0px 0px 40px;
+    background-repeat: no-repeat;
+    font-family: "Caveat", cursive;
+    font-size: 27px;
+    line-height: 1.2;
+}
+#jawaher .tagline {
+    background-image: url(images/tagline-jawaher.png);
+    color: #3A1A2C;
+}
+#salama .tagline {
+    background-image: url(images/tagline-salama.png);
+    color: #4A2812;
+}
+#fatima .tagline {
+    background-image: url(images/tagline-fatima.png);
+    color: #1F2023;
+}
+#hala .tagline {
+    background-image: url(images/tagline-hala.png);
+    color: #3A141A;
+}
+#mathayel .tagline {
+    background-image: url(images/tagline-mathayel.png);
+    color: #1E2F48;
+}
+#intro .opening-text {
+    margin-top: 32px;
+}
+.cv {
+    position: relative;
+    margin: 20px 0px 0px;
+}
+.cv a:hover img {
+    position: relative;
+    top: -3px;
+}
+#collage {
+    position: absolute;
+}
+#jawaher #collage {
+    left: 614px;
+    top: 196px;
+}
+#salama #collage {
+    left: 542px;
+    top: 148px;
+}
+#fatima #collage {
+    left: 562px;
+    top: 187px;
+}
+#hala #collage {
+    left: 582px;
+    top: 197px;
+}
+#mathayel #collage {
+    left: 584px;
+    top: 199px;
+}
+#checklist {
+    position: absolute;
+    color: #2B2018;
+    font-family: "Caveat", cursive;
+    font-size: 21px;
+}
+#checklist p {
+    margin: 0px;
+}
+#salama #checklist {
+    left: 699px;
+    top: 250px;
+    line-height: 34px;
+}
+#salama .list-head {
+    font-size: 28px;
+    color: #7E4520;
+}
+#fatima #checklist {
+    left: 688px;
+    top: 256px;
+    line-height: 27px;
+}
+#fatima .list-head {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 29px;
+    border-bottom: 2px solid #1F2023;
+}
+.note {
+    width: 406px;
+    margin: 12px 0px 0px 10px;
+    padding: 93px 77px 0px 116px;
+    background-repeat: no-repeat;
+    color: #2B2018;
+}
+.note p {
+    margin: 0px 0px 36px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 23px;
+    line-height: 36px;
+}
+#cover .note {
+    height: 369px;
+    margin-top: 13px;
+    background-image: url(images/note-about.png);
+}
+#jawaher .note {
+    height: 549px;
+    background-image: url(images/note-jawaher.png);
+}
+#salama .note {
+    height: 333px;
+    background-image: url(images/note-salama.png);
+}
+#fatima .note {
+    height: 549px;
+    background-image: url(images/note-fatima.png);
+}
+#hala .note {
+    height: 585px;
+    background-image: url(images/note-hala.png);
+}
+#mathayel .note {
+    height: 333px;
+    background-image: url(images/note-mathayel.png);
+}
+#strip {
+    width: 372px;
+    margin: -19px 0px 0px 23px;
+}
+.members-head .left {
+    float: left;
+    width: 640px;
+}
+.members-head .hand {
+    float: right;
+    margin: 60px 0px 0px;
+    color: #E8CF9E;
+}
+.swatches {
+    position: relative;
+    height: 437px;
+    margin: 40px 0px 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.swatches li {
+    position: absolute;
+}
+#sw1 {
+    left: -6px;
+    top: 43px;
+}
+#sw2 {
+    left: 200px;
+    top: 27px;
+}
+#sw3 {
+    left: 403px;
+    top: 21px;
+}
+#sw4 {
+    left: 590px;
+    top: 27px;
+}
+#sw5 {
+    left: 767px;
+    top: 43px;
+}
+.swatches a:hover img {
+    position: relative;
+    top: -30px;
+}
+.start-reading {
+    margin: 70px 0px 0px;
+    text-align: center;
+}
+.start-reading a {
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+    text-decoration: none;
+}
+.start-reading a:hover {
+    color: #E8CF9E;
+}
+.player {
+    position: relative;
+    margin: 44px 0px 0px;
+    padding: 16px 16px 20px;
+    background-color: #16110E;
+    border-radius: 14px;
+    box-shadow: 0px 30px 60px #000000;
+}
+.player:hover {
+    top: -6px;
+}
+.player video {
+    display: block;
+    border-radius: 8px;
+    background-color: #000000;
+}
+.player .info {
+    margin-top: 14px;
+}
+.player .info strong {
+    display: block;
+    font-size: 18px;
+}
+.player .info span {
+    font-size: 13px;
+    color: #BCAD95;
+}
+.player .info .heart {
+    float: right;
+    font-size: 22px;
+    color: #EDE4D3;
+}
+.list-title {
+    margin: 30px 0px 0px;
+    color: #E8CF9E;
+}
+.list-title.first {
+    margin-top: 50px;
+}
+.label-list {
+    margin: 18px 0px 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.label-list li {
+    display: inline-block;
+    margin: 0px 8px 12px 0px;
+    padding: 6px 16px;
+    background-color: #A98059;
+    color: #2B2018;
+    font-family: "Caveat", cursive;
+    font-size: 22px;
+    box-shadow: 0px 6px 12px #000000;
+}
+.label-list li:hover {
+    background-color: #C9A27A;
+}
+#fatima .label-list li {
+    background-color: #D6D7DA;
+}
+#fatima .label-list li:hover {
+    background-color: #FFFFFF;
+}
+#hala .label-list li {
+    background-color: #E3C3C7;
+}
+#hala .label-list li:hover {
+    background-color: #F3E2E4;
+}
+#mathayel .label-list li {
+    background-color: #C9D5E4;
+}
+#mathayel .label-list li:hover {
+    background-color: #E6EDF6;
+}
+.love-cards {
+    margin-top: 24px;
+    padding-left: 5px;
+}
+.love-card {
+    position: relative;
+    float: left;
+    margin-right: 65px;
+    padding: 68px 35px 0px;
+    text-align: center;
+    color: #2B2018;
+    background-repeat: no-repeat;
+}
+.love-card.last {
+    margin-right: 0px;
+}
+.love-card img {
+    position: absolute;
+    top: -38px;
+    left: 50%;
+    margin-left: -38px;
+}
+.love-card h3 {
+    margin: 0px 0px 8px;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
+.love-card p {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.love-card .year {
+    position: absolute;
+    left: 0px;
+    bottom: 28px;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F5A44;
+}
+#jawaher .love-card {
+    width: 251px;
+    height: 165px;
+    background-image: url(images/card-jawaher.png);
+}
+#hala .love-card {
+    width: 251px;
+    height: 196px;
+    background-image: url(images/card-hala.png);
+}
+#salama .love-card, #fatima .love-card {
+    width: 199px;
+    margin-right: 51px;
+    padding: 65px 19px 0px 18px;
+}
+#salama .love-card {
+    height: 154px;
+    background-image: url(images/card-salama.png);
+}
+#fatima .love-card {
+    height: 210px;
+    background-image: url(images/card-fatima.png);
+}
+#salama .love-card h3, #fatima .love-card h3 {
+    font-size: 26px;
+}
+#salama .love-card.last, #fatima .love-card.last {
+    margin-right: 0px;
+}
+.ticket {
+    margin-bottom: 20px;
+    background-color: #DCCAA6;
+    color: #2B2018;
+    box-shadow: 0px 12px 22px #000000;
+}
+.ticket.alt {
+    margin-left: 26px;
+    background-color: #CDBB9C;
+}
+.ticket .main {
+    float: left;
+    width: 420px;
+    padding: 14px 18px;
+    border-right: 2px dashed #8E7A62;
+}
+.ticket .main strong {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.ticket .main span {
+    display: block;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.ticket .main small {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #5A4634;
+}
+.ticket .stub {
+    float: left;
+    width: 120px;
+    padding-top: 18px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    color: #7A5A22;
+}
+.tickets.edu {
+    margin-top: 14px;
+}
+.edu .ticket .main {
+    width: 262px;
+}
+.edu .ticket .main span {
+    font-size: 21px;
+}
+.edu .ticket .stub {
+    width: 100px;
+    font-size: 24px;
+}
+#jawaher .stub {
+    color: #5E2C48;
+}
+#salama .stub {
+    color: #7E4520;
+}
+#fatima .stub {
+    color: #1F2023;
+}
+#hala .stub {
+    color: #5C232A;
+}
+#mathayel .stub {
+    color: #2E4568;
+}
+.section-intro {
+    width: 520px;
+    margin: -6px 0px 26px;
+    font-size: 16px;
+    color: #D8CDBB;
+}
+#milestones .narrow {
+    padding-top: 124px;
+}
+.goal-note {
+    width: 280px;
+    height: 284px;
+    margin-left: 6px;
+    padding: 53px 63px 0px 64px;
+    background-repeat: no-repeat;
+    color: #2B2018;
+}
+.goal-note p {
+    margin: 0px;
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+    line-height: 1.3;
+}
+#jawaher .goal-note {
+    background-image: url(images/goal-jawaher.png);
+}
+#salama .goal-note {
+    background-image: url(images/goal-salama.png);
+}
+#fatima .goal-note {
+    height: 324px;
+    background-image: url(images/goal-fatima.png);
+}
+#hala .goal-note {
+    height: 324px;
+    background-image: url(images/goal-hala.png);
+}
+#mathayel .goal-note {
+    background-image: url(images/goal-mathayel.png);
+}
+.envelope {
+    position: relative;
+    padding: 96px 30px 30px;
+    background-color: #CDBB9C;
+    box-shadow: 0px 26px 50px #000000;
+}
+.flap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 618px;
+    height: 106px;
+    background-repeat: no-repeat;
+}
+#jawaher .flap {
+    background-image: url(images/flap-jawaher.png);
+}
+#salama .flap {
+    background-image: url(images/flap-salama.png);
+}
+#fatima .flap {
+    background-image: url(images/flap-fatima.png);
+}
+#hala .flap {
+    background-image: url(images/flap-hala.png);
+}
+#mathayel .flap {
+    background-image: url(images/flap-mathayel.png);
+}
+#jawaher .envelope:hover .flap, #salama .envelope:hover .flap, #fatima .envelope:hover .flap, #hala .envelope:hover .flap, #mathayel .envelope:hover .flap {
+    top: -96px;
+    height: 96px;
+    background-image: url(images/flap-open.png);
+}
+.letter {
+    position: relative;
+    width: 448px;
+    height: 635px;
+    padding: 34px 34px 0px 76px;
+    background-image: url(images/letter.png);
+    color: #2B2018;
+}
+.envelope:hover .letter {
+    top: -14px;
+}
+.letter .hand {
+    margin: 0px;
+    font-size: 32px;
+    line-height: 68px;
+}
+.letter td {
+    height: 34px;
+    font-family: "Caveat", cursive;
+    font-size: 23px;
+    line-height: 34px;
+}
+.letter td.q {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.letter label {
+    margin-right: 18px;
+}
+.letter td.q label {
+    margin-right: 0px;
+}
+.letter input, .letter select, .letter textarea {
+    font-family: "Caveat", cursive;
+    font-size: 22px;
+    color: #2B2018;
+}
+#name, #email, #found {
+    width: 430px;
+    height: 30px;
+    border: 0px;
+    border-bottom: 2px solid #6B5640;
+    background-color: #F3ECDF;
+}
+#message {
+    width: 426px;
+    height: 96px;
+    border: 2px solid #6B5640;
+    background-color: #F3ECDF;
+}
+.letter td.buttons {
+    height: 68px;
+}
+#send, #clear {
+    height: 34px;
+    padding: 0px 26px;
+    margin-right: 8px;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#send {
+    border: 0px;
+    background-color: #2B2018;
+    color: #F3ECDF;
+}
+#clear {
+    border: 2px solid #2B2018;
+    background-color: #F3ECDF;
+}
+#send:hover {
+    background-color: #5A4634;
+}
+.page-turn {
+    padding: 0px 0px 30px;
+}
+.page-turn .back {
+    float: left;
+    margin-top: 70px;
+    font-family: "Caveat", cursive;
+    font-size: 26px;
+    text-decoration: none;
+}
+.page-turn .back:hover {
+    color: #E8CF9E;
+}
+.page-turn .next {
+    float: right;
+    margin: 32px 3px 0px 0px;
+}
+.page-turn .next:hover img {
+    position: relative;
+    top: -6px;
+}
+#footer {
+    padding: 30px 0px 40px;
+    border-top: 1px solid #393430;
+    font-size: 13px;
+    color: #BCAD95;
+}
+#footer p {
+    margin: 4px 0px;
+}
+#footer a {
+    color: #BCAD95;
+}
+#contact .opening-text {
+    width: 380px;
+}
+#mathayel .wide .edu {
+    width: 540px;
+}
+#mathayel .wide .edu .ticket .main {
+    width: 380px;
+}
+.scroll-cue, .page-turn .back, .start-reading a, .menu a, .chips a {
+    position: relative;
+}
+.scroll-cue:hover, .page-turn .back:hover, .start-reading a:hover, .menu a:hover, .chips a:hover {
+    top: -3px;
+}
+.scroll-cue:hover {
+    color: #E8CF9E;
+}
+.members-head .hand a {
+    position: relative;
+    color: #E8CF9E;
+    text-decoration: none;
+}
+.members-head .hand a:hover {
+    top: -3px;
+}
+#brand a {
+    position: relative;
+}
+#brand a:hover {
+    top: -3px;
+}
+#heroCenter h1 img, #intro h1 img {
+    position: relative;
+}
+#heroCenter h1 img:hover, #intro h1 img:hover {
+    top: -5px;
+}
+.love-cards {
+    margin-top: 70px;
+}
+.ticket:hover {
+    background-color: #F3E6C8;
+}
+.ticket.alt:hover {
+    background-color: #EADBB8;
+}
+.edu .ticket.alt .main {
+    width: 236px;
+}
+#mathayel .wide .edu .ticket.alt .main {
+    width: 354px;
+}
+#header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    min-width: 1084px;
+    z-index: 10;
+}
+#container {
+    padding-top: 108px;
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -140px;
+}
+#strip figcaption {
+    margin-top: -40px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    color: #E8CF9E;
+}
+@media (max-width: 700px) {
+	#container {
+		min-width: 0px;
+		padding-top: 0px;
+	}
+	#header {
+		position: static;
+		width: auto;
+		min-width: 0px;
+		padding: 0px 16px;
+	}
+	#navigation, #banner, #mainContent, #footer {
+		width: auto;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	#navigation {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.menu, .chips {
+		float: none;
+	}
+	.chips li {
+		margin: 8px 6px 0px 0px;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	#banner, #cover #banner {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	#heroLeft, #heroRight, #cd, #collage, .swatches li {
+		display: block;
+		position: static;
+		margin: 20px auto 0px;
+	}
+	#cd {
+		display: none;
+	}
+	#heroCenter, #intro, .page-no {
+		position: static;
+		width: auto;
+	}
+	#heroCenter {
+		padding-top: 40px;
+	}
+	.page-no {
+		padding-top: 20px;
+	}
+	#intro {
+		padding-top: 10px;
+	}
+	#checklist {
+		display: none;
+	}
+	.tagline {
+		width: auto;
+		margin-left: 0px;
+		padding-right: 10px;
+	}
+	#strip {
+		width: auto;
+		margin: 20px 0px 0px;
+		text-align: center;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	#heroCenter .statement {
+		font-size: 22px;
+	}
+	.opening-text, #contact .opening-text, .section-intro {
+		width: auto;
+	}
+	.section {
+		padding: 60px 0px;
+	}
+	.twoColumn, .wide, .narrow, .wide.right, .members-head .left {
+		float: none;
+		width: auto;
+		margin: 0px;
+	}
+	.narrow, #milestones .narrow {
+		padding-top: 40px;
+	}
+	.members-head .hand {
+		float: none;
+		margin: 10px 0px 0px;
+	}
+	.swatches {
+		height: auto;
+	}
+	.note, #cover .note, #jawaher .note, #salama .note, #fatima .note, #hala .note, #mathayel .note {
+		width: auto;
+		height: auto;
+		margin: 12px 0px 0px;
+		padding: 30px 20px 10px;
+		background-image: none;
+		background-color: #F3ECDF;
+	}
+	.player video {
+		width: 100%;
+		height: auto;
+	}
+	.love-cards {
+		padding-left: 0px;
+	}
+	.love-card, #salama .love-card, #fatima .love-card, #jawaher .love-card, #hala .love-card {
+		float: none;
+		width: auto;
+		height: auto;
+		margin: 0px 0px 50px;
+		padding: 60px 20px 60px;
+		background-image: none;
+		background-color: #F3ECDF;
+	}
+	.ticket, .ticket.alt {
+		margin-left: 0px;
+	}
+	.ticket .main, .edu .ticket .main, #mathayel .wide .edu .ticket .main, .edu .ticket.alt .main, #mathayel .wide .edu .ticket.alt .main {
+		float: none;
+		width: auto;
+		border-right: 0px;
+		border-bottom: 2px dashed #8E7A62;
+	}
+	.ticket .stub, .edu .ticket .stub {
+		float: none;
+		width: auto;
+		padding: 6px 0px;
+	}
+	.tickets.edu, #mathayel .wide .edu {
+		width: auto;
+	}
+	.goal-note, #fatima .goal-note, #hala .goal-note {
+		width: auto;
+		height: auto;
+		margin: 0px;
+		padding: 30px 20px;
+		background-image: none;
+		background-color: #F3ECDF;
+	}
+	.envelope {
+		padding: 30px 12px 12px;
+	}
+	.flap, #jawaher .envelope:hover .flap, #salama .envelope:hover .flap, #fatima .envelope:hover .flap, #hala .envelope:hover .flap, #mathayel .envelope:hover .flap {
+		display: none;
+	}
+	.letter, .envelope:hover .letter {
+		width: auto;
+		height: auto;
+		top: 0px;
+		padding: 20px 16px 20px;
+		background-image: none;
+		background-color: #F3ECDF;
+	}
+	.letter table {
+		width: 100%;
+	}
+	#name, #email, #found, #message {
+		width: 100%;
+	}
+	.page-turn .back {
+		float: none;
+		display: block;
+		margin-top: 20px;
+	}
+	.page-turn .next {
+		float: none;
+		display: block;
+		margin: 20px 0px 0px;
+	}
+}
